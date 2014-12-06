@@ -1,7 +1,7 @@
 Eztv-query
 ==========
 [![NPM version](https://badge.fury.io/js/eztv-query.png)](http://badge.fury.io/js/eztv-query)
-[![Dependency Status](https://david-dm.org/Munter/etv-query.png)](https://david-dm.org/Munter/etv-query)
+[![Dependency Status](https://david-dm.org/Munter/eztv-query.svg)](https://david-dm.org/Munter/eztv-query)
 
 Query the eztv website for information about a specific TV-series episode.
 

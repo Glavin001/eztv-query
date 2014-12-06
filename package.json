@@ -1,12 +1,12 @@
 {
   "name": "eztv-query",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Command line interface to find the information about a specific torrent on eztv.it",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
-  "bin": "./bin/eztv",
+  "bin": "./bin/eztv.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Munter/eztv-query.git"
@@ -21,7 +21,10 @@
   "license": "MIT",
   "dependencies": {
     "episode": "^0.2.0",
-    "eztv": "0.0.3",
+    "eztv": "0.0.6",
     "inquirer": "^0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
   }
 }
